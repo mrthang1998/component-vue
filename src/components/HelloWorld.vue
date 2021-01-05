@@ -15,8 +15,7 @@
           href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel"
           target="_blank"
           rel="noopener"
-          >babel</a
-        >
+          >babel</a>
       </li>
       <li>
         <a
@@ -91,14 +90,19 @@
         >
       </li>
     </ul>
+    <button @click="show()">Click</button>
   </div>
 </template>
 
 <script>
+
 export default {
   name: "HelloWorld",
   props: {
     msg: String
+  },
+  methods: {
+    
   }
 };
 </script>
